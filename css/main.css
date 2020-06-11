@@ -297,6 +297,7 @@ header .menu_top .menu ul>li>a.roll:before {
 	background: #F5F5F5;
 	border-radius: 9px 159px 9px 9px;
 	padding: 140px 50px 35px 30px;
+	
 }
 .akcii_wrapper .akcii_element>img {
 	position: absolute;
@@ -313,6 +314,7 @@ header .menu_top .menu ul>li>a.roll:before {
 	background: url(../img/icon/akcii-shadow.svg) no-repeat;
 }
 .akcii_wrapper .akcii_element:hover {
+	transition: 0.3s ease-in-out;
 	background: #FFD80A;
 }
 .akcii_wrapper .akcii_element:hover:before {
