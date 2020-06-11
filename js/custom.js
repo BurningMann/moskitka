@@ -36,3 +36,13 @@ window.onload = function(){
     asNavFor: '.modal_box.more .main_slider'
   })
 }
+$(".ham").click(function(){
+  $(this).toggleClass("active")
+  $("header .menu_top .menu ul").slideToggle().css("display","flex")
+})
+$("header .menu_top .menu ul > li > a").click(function(){
+  if($(".ham").hasClass("active")){
+    $(this).closest("ul").slideUp()
+    $(".ham").removeClass("active")
+  }
+})
