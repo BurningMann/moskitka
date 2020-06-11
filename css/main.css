@@ -985,7 +985,7 @@ footer .footer_box .footer_contact .contact .top .adress:before {
 	.question_box .contact_form button{
 		margin: 0 auto 0;
 	}
-	footer .footer_box .footer_contact .contact .bottom{
+	footer .footer_box .footer_contact .contact .top, footer .footer_box .footer_contact .contact .bottom{
 		flex-direction: column;
 		align-items: center;
 	}
