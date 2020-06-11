@@ -73,10 +73,9 @@ img {
 	width: 228px;
 	height: 50px;
 	border: none;
-	transition: 0.5s ease-in-out;
 }
 .common_btn:hover{
-	box-shadow: inset 3px 3px 5px rgba(86, 108, 131, 0.25);
+	box-shadow: inset 3px 3px 5px rgba(86, 108, 131, 0.4);
 }
 /* Header */
 
